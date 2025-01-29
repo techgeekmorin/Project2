@@ -20,6 +20,37 @@ ul{
     color: rgb(0, 0, 255);
 }
 
+.formItems{
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.formItems input{
+    font-size: 18px;
+    padding: 8px 22px;
+}
+
+.formItems button{
+    font-size: 18px;
+    border: none;
+    background-color: rgb(0, 0, 255);
+    color: white;
+    padding: 8px 22px;
+}
+
+.formItems button:hover{
+    cursor: pointer;
+    background: white;
+    color: rgb(0, 0, 255);
+}
+
+.formItems button:active{
+    background: black;
+    color:white;
+}
+
 .calculateTip{
 li{
     list-style-type: none;
